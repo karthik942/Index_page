@@ -1,0 +1,72 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+#heading {
+    width: 100%;
+    height: 650px;
+    background-image: url(./b-2.jpg);
+    background-size: 100% ;
+    background-repeat: no-repeat;
+    float: left;
+    transition: background-size 5s;
+    
+}
+#heading:hover{
+    background-size: 120%;
+
+}
+#h{
+    font-size: 50px;
+    color: white;
+    float: left;
+    padding-left: 350px;
+    padding-top: 120px;
+    transition: font-size 3s;
+    
+}
+#heading:hover #h{
+    font-size: 70px;
+
+}
+#gear{
+    float: left;
+
+}
+#ig{
+    width: 250px;
+    height: 250px;
+    transition: rotate 4s;
+}
+#heading:hover #ig{
+    rotate: 360deg;
+}
+#spanner{
+    
+    float: right;
+}
+#is{
+    width: 200px;
+    height: 200px;
+    transition: width 2s,height 2s;
+   
+}
+#heading:hover #is{
+    width: 100px;
+    height: 100px;
+}
+#car{
+    width:300px;
+    height: 120px;
+    padding-top: 550px;
+}
+#cp{
+    width:180px;
+    height: 120px;
+    transition: all 5s;
+   
+}
+#heading:hover #cp{
+    padding-left: 1360px;
+}
